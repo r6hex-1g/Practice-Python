@@ -13,6 +13,7 @@ class listType :
   print(isPassed[-1]) # True
   print(isPassed[-2]) # False
 
+class listSilcing :
   sports = ["soccer", "baseball", "volleyball", "handball", "basketball"]
   print(sports[0:3]) # 'soccer', 'baseball', 'volleyball'
   print(sports[2:]) # 'volleyball', 'handball', 'basketball'
@@ -35,4 +36,4 @@ class listPop :
 
   basket = fruits.pop(0)
   print(fruits) # 'banana'
-  print(basket) # 'apple'
+  print(basket) # apple
